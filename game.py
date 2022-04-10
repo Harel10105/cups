@@ -155,7 +155,7 @@ class Game1:
                   CUP_HEIGHT, (0, 0, 0))
         add_image(self.screen, "images/cup.jpg", self.posList[2], self.current_y_cup, CUP_WIDTH,
                   CUP_HEIGHT, (0, 0, 0))
-        display_text(self.screen, round(WIDTH / 70) , round(HEIGHT / 70),"your score is: "+str(self.level -9))
+        display_text(self.screen, round(WIDTH / 7) , round(HEIGHT / 8),"your score is: "+str(self.level -9))
 
     def game_screen(self):
         mixer.music.load(self.playlist[0])
